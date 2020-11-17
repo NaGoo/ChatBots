@@ -10,7 +10,7 @@ body {
   body::after {
       content: "";
       background-image: url("bot.jpeg");
-      background-repeat: repeat-y; 
+      background-repeat: no-repeat; 
       opacity: 0.5;
       top: 100px;
       left: 430px;
@@ -21,7 +21,7 @@ body {
     }
    
   span { 
-      color: rgb(36, 17, 119); 
+      color:violet; 
   } 
   ::-webkit-input-placeholder { 
       color: #711 
@@ -42,3 +42,4 @@ body {
       padding: 5px; 
       border: 1px solid #421; 
   }
+  

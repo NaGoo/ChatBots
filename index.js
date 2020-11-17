@@ -10,9 +10,6 @@
     });
   });
 
-    
-
-
       const trigger = [
             //0 
             ["hi", "hey", "hello"],
@@ -106,13 +103,13 @@
                 }
 
                 function addChat(input, product) {
-                  const mainDiv = document.getElementById("main");
-                  let userDiv = document.createElement("div");
+                  const mainDiv = document.getElementById("tab");
+                  let userDiv = document.createElement("tr");
                   userDiv.id = "user";
                   userDiv.innerHTML = `You: <span id="user-response">${input}</span>`;
                   mainDiv.appendChild(userDiv);
                 
-                  let botDiv = document.createElement("div");
+                  let botDiv = document.createElement("tr");
                   botDiv.id = "bot";
                   botDiv.innerHTML = `Bot: <span id="bot-response">${product}</span>`;
                   mainDiv.appendChild(botDiv);
